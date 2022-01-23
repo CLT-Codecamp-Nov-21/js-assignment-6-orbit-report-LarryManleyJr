@@ -15,10 +15,11 @@ export class Satellite {
    }
 	
 	isSpaceDebris(): boolean {
- 		this.type ==="Space Debris";
- 			return true;
+ 		return this.type ==="Space Debris";
+ 			
     }
 
 }
+console.log(Satellite)
 
 // TODO 3a: fix isSpaceDebris check
